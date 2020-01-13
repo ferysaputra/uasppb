@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cemilan</string>
+    <string name="password">  Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">forgot_your_password</string>
+    <string name="email">  email</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Nama </string>
+    <string name="call_center">Call Center</string>
+    <string name="sms_center">SMS Center</string>
+    <string name="maps">Maps</string>
+    <string name="update_data">Update Data</string>
+    <string name="cemilan_ku">Cemilan-Ku</string>
+    <string name="minuman">Minuman</string>
+    <string name="dorayaki">Dorayaki</string>
+    <string name="sushi">Sushi</string>
+    <string name="ramen">Ramen</string>
+    <string name="dango">Dango</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
+</resources>

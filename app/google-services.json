@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "540817455955",
+    "firebase_url": "https://cemilan-e4080.firebaseio.com",
+    "project_id": "cemilan-e4080",
+    "storage_bucket": "cemilan-e4080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540817455955:android:a649faf49aa80ce0307fa6",
+        "android_client_info": {
+          "package_name": "com.example.cemilan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540817455955-bvdpsfot9tjiu2au8bicpgrog0s41aus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cemilan",
+            "certificate_hash": "c484711ac77d711cb9ac192fb6b2204236e724aa"
+          }
+        },
+        {
+          "client_id": "540817455955-74uir37vbtv7qkc1stgus990d1nag6cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cemilan",
+            "certificate_hash": "dd9274dc6248be222c47f75a0765bd1ab87bc3f6"
+          }
+        },
+        {
+          "client_id": "540817455955-2vroo91ts4eg95gmat8h8gjmom1e99li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0atZiONuNuxTvw3VLKIjszlHnh6AU4NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540817455955-2vroo91ts4eg95gmat8h8gjmom1e99li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

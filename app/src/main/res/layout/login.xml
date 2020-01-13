@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/splash_screen" />
+
+    <TextView
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_user"
+        android:layout_marginLeft="65dp"
+        android:text="Username"
+        android:textColor="@color/colorPrimaryDark" />
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/iv_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:elevation="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_email"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="@color/colorPrimaryDark" />
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_email"
+        android:layout_alignStart="@+id/edit_email"
+        android:layout_alignLeft="@+id/edit_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box"
+        android:drawableLeft="@drawable/ic_pass_name"
+        android:elevation="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <CheckBox
+        android:id="@+id/id_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_pass"
+        android:layout_marginLeft="63dp"
+        android:text="Show Password" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/edit_pass"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rectangle_blue"
+        android:elevation="10dp"
+        android:text="@string/login"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/tv_register"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/edit_pass"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="190dp"
+        android:background="@drawable/button_rectangle_blue"
+        android:elevation="10dp"
+        android:text="SIGN UP"
+        android:textColor="@color/colorwhite"
+        android:textSize="15sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_marginLeft="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_register"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/box" />
+
+</RelativeLayout>

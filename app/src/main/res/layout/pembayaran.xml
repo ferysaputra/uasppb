@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pembayaran">
+
+    <TextView
+        android:id="@+id/total_transaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/box"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Total Transaksi"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total_biaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total_transaksi"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/jumlah_bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total_biaya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Jumlah Pembayaran"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/edt_bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jumlah_bayar"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jumlah_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_bayar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Jumlah Kembalian"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_kemabalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jumlah_kembali"
+        android:layout_centerHorizontal="true"
+        android:editable="false"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_kemabalian"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="bayar"
+        android:text="BAYAR"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/btn_print"
+        android:onClick="print"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:text="Print"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/edt_kemabalian"
+        android:background="@drawable/btn_bg"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
